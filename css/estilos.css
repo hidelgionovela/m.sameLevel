@@ -56,12 +56,12 @@ p{
 }
 
 .btn-menu {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   float: right;
   text-align: center;
   color: #fff;
-  border-radius: 250px;
+  border-radius: 200px;
   cursor: pointer;
   background: linear-gradient(to right, #00c, #ccc);
   position: fixed;
