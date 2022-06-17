@@ -5,9 +5,9 @@
   font-size: 100%;
   border: none;
   outline: none;
-  font-weight: 300;
+  font-weight: 350;
   box-sizing: border-box;
-  font-family: 'Grandstander', cursive;
+  font-family: 'Grandstander';
 }
 
 body {
@@ -16,6 +16,7 @@ body {
 
 a {
   text-decoration: none;
+  /* font-size: 75px; */
 }
 
 ul {
@@ -27,12 +28,13 @@ img {
 }
 
 h2 {
-  font-size: large;
+  font-size: 75px;
   color: #06c;
 }
 
 p{
   text-align: justify;
+  font-size: 45px;
 }
 
 /*=====CONTAINER=====*/
@@ -46,20 +48,20 @@ p{
 /*cabecalho*/
 
 .logo {
-  width: 90px;
-  height: 156px;
+  width: 300px;
+  height: 250px;
   float: left;
-  background: url(mobile1.png) center center/100px no-repeat;
+  background: url(mobile1.png) center center/200px no-repeat;
   font-size: 0;
 }
 
 .btn-menu {
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 200px;
   float: right;
   text-align: center;
   color: #fff;
-  border-radius: 80px;
+  border-radius: 200px;
   cursor: pointer;
   background: linear-gradient(to right, #00c, #ccc);
   position: fixed;
@@ -186,7 +188,7 @@ p{
 }
 
 .newsletter h2 {
-  font-size: 1.5em;
+  font-size: 80px;
   font-weight: 700;
   color: #fff;
 }
@@ -205,11 +207,12 @@ p{
   width: 100%;
   margin-right: 1%;
   padding: 5%;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid white;
   border-radius: 7px;
   color: #fff;
   background-color: initial;
   float: left;
+  height: 30%;
 }
 
 .newsletter button {
